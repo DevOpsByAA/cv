@@ -12,11 +12,44 @@ jobs:
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v4
-      - name: cv
-        uses: dante-ev/latex-action@latest
+
+      # - name: cv
+      #   uses: dante-ev/latex-action@latest
+      #   with:
+      #     root_file: ${{ env.FILE }}
+      #     working_directory: ${{ env.DIR }}
+
+      - name: Setup TeX Live
+        uses: teatimeguest/setup-texlive-action@v3
         with:
-          root_file: ${{ env.FILE }}
-          working_directory: ${{ env.DIR }}
+          # Install a full scheme to ensure all packages are available
+          # You can use 'basic' or 'minimal' for faster builds if you don't need all packages
+          packages: >
+            scheme-full
+          # Alternatively, for a smaller installation:
+          # packages: >
+          #   scheme-basic
+          #   fontspec
+          #   xunicode
+          #   xltxtra
+          #   polyglossia
+          #   collection-fontsrecommended
+          
+      - name: Compile XeLaTeX document
+        run: |
+          # Compile the main document (change 'cv.tex' to your file name)
+          xelatex -interaction=nonstopmode cv.tex
+          # Run twice for cross-references, citations, etc.
+          xelatex -interaction=nonstopmode cv.tex
+          
+          # If you have bibliography, uncomment these lines:
+          # biber main
+          # xelatex -interaction=nonstopmode main.tex
+          
+          # If using bibtex instead of biber:
+          # bibtex main
+          # xelatex -interaction=nonstopmode main.tex
+
       - name: move
         run: mkdir -p github_artifacts && mv ${{ env.DIR }}/${{ env.FILE }}.pdf ./github_artifacts/
       - name: Upload pdf as artifact
