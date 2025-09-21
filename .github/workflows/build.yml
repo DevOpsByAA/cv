@@ -13,27 +13,6 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v4
 
-      # - name: cv
-      #   uses: dante-ev/latex-action@latest
-      #   with:
-      #     root_file: ${{ env.FILE }}
-      #     working_directory: ${{ env.DIR }}
-          
-      # - name: Compile XeLaTeX document
-      #   run: |
-      #     # Compile the main document (change 'cv.tex' to your file name)
-      #     xelatex -interaction=nonstopmode cv.tex
-      #     # Run twice for cross-references, citations, etc.
-      #     xelatex -interaction=nonstopmode cv.tex
-      #     
-      #     # If you have bibliography, uncomment these lines:
-      #     # biber main
-      #     # xelatex -interaction=nonstopmode main.tex
-      #     
-      #     # If using bibtex instead of biber:
-      #     # bibtex main
-      #     # xelatex -interaction=nonstopmode main.tex
-
       - name: Compile with xu-cheng/latex-action
         uses: xu-cheng/latex-action@v3
         with:
