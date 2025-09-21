@@ -45,10 +45,10 @@ Last Updated on
 \newcommand{\namesection}[3]{
 	\centering{
 		\sffamily
-		\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{40pt}{10cm}\selectfont #1
+		\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{36pt}{10cm}\selectfont #1
 		\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\selectfont #2
 	} \\
-	\vspace{5pt}
+	\vspace{10pt}
 	\centering{ \color{headings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3}
 	\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.10pt}}
 	\vspace{-15pt}
