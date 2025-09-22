@@ -46,7 +46,8 @@ Last Updated on
 	\centering{
 		\sffamily
 		\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{36pt}{10cm}\selectfont #1
-		\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\selectfont #2
+		\vspace{10pt}
+		\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{28pt}{10cm}\selectfont #2
 	} \\
 	\vspace{10pt}
 	\centering{ \color{headings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3}
