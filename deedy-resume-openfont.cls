@@ -51,7 +51,7 @@ Last Updated on
 	\centering{\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{22pt}{5cm}\selectfont #2} \\
 	\vspace{12pt}
 	\centering{ \color{headings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3}
-	\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.10pt}}
+	% \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.10pt}}
 	\vspace{-15pt}
 }
 \titlespacing{\section}{0pt}{0pt}{0pt}
