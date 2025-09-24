@@ -80,4 +80,6 @@ Last Updated on
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{\vspace{-1mm}\begin{itemize}\itemsep1pt \parskip1.5pt \parsep1.5pt}{\end{itemize}\vspace{-\topsep}}
 
-% \skillsdescript[1]{}
+\newcommand\skillsdescript[1]{\fontspec[Path = fonts/raleway/]{Raleway-Medium}}
+
+\newcommand\skills[1]{\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}}
