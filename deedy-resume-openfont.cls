@@ -82,4 +82,4 @@ Last Updated on
 
 \newcommand\skillsdescript[1]{\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}}
 
-\newcommand\skills[1]{\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}}
+\newcommand\skills{\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}}
