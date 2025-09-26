@@ -82,4 +82,9 @@ Last Updated on
 
 \newcommand\skillsdescript{\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}}
 
-\newcommand\skills{\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}}
+\newcommand\skills[2]{
+	\centering{
+		\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{11pt}\selectfont #1
+		\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{11pt}{11pt}\selectfont #2
+	}
+}
