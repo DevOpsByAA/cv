@@ -84,7 +84,9 @@ Last Updated on
 
 \newcommand\skills[2]{
 	\centering{
+		\vspace{5pt}
 		\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{11pt}\selectfont #1
 		\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{11pt}{11pt}\selectfont #2
+		\vspace{10pt}
 	}\\
 }
