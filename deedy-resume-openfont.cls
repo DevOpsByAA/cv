@@ -86,5 +86,5 @@ Last Updated on
 	\centering{
 		\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{11pt}\selectfont #1
 		\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{11pt}{11pt}\selectfont #2
-	}
+	}\\
 }
