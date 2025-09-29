@@ -80,8 +80,9 @@ Last Updated on
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{\vspace{-1mm}\begin{itemize}\itemsep1pt \parskip1.5pt \parsep1.5pt}{\end{itemize}\vspace{-\topsep}}
 
-\newcommand\skills[2]{
+\newcommand\projets[2]{
 	\vspace{2pt}
+	\indent
 	\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{11pt}\selectfont #1
 	\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{10pt}{10pt}\selectfont #2
 	\par\vspace{10pt}
