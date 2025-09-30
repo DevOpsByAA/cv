@@ -49,7 +49,7 @@ Last Updated on
 		\vspace{12pt}
 	} \\
 	\centering{\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{20pt}{4cm}\selectfont #2} \\
-	\vspace{12pt}
+	\vspace{10pt}
 	\centering{ \color{headings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3}
 	% \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.10pt}}
 	\vspace{-15pt}
