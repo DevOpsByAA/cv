@@ -58,7 +58,7 @@ Last Updated on
 
 % Headings command
 \titleformat{\section}{\color{headings}
-\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{14pt}{22pt}\selectfont \raggedright\uppercase}{} {0em}{}
+\scshape\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{14pt}{22pt}\selectfont \raggedright\uppercase}{} {0em}{}
 
 % Subeadings command
 \titleformat{\subsection}{\color{subheadings}
