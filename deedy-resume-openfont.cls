@@ -92,4 +92,12 @@ Last Updated on
 	\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{11pt}\selectfont #1
 	\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{10pt}{10pt}\selectfont #2
 	\par\vspace{10pt}
+}
+
+\newcommand\skillitem[2]{
+	\vspace{2pt}
+	\hspace{1.5em} 
+	\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{11pt}\selectfont $\textbullet$ #1
+	\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{10pt}{10pt}\selectfont #2
+	\par\vspace{2pt}
 } 
