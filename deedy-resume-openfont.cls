@@ -48,9 +48,9 @@ Last Updated on
 		\fontspec[Path = fonts/raleway/]{Raleway-Regular}\fontsize{30pt}{8cm}\selectfont #1
 		\vspace{12pt}
 	} \\
-	\centering{\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{20pt}{4cm}\selectfont #2} \\
+	\centering{\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{18pt}{4cm}\selectfont #2} \\
 	\vspace{10pt}
-	\centering{ \color{headings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3}
+	\centering{ \color{headings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont #3}
 	% \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.10pt}}
 	\vspace{-15pt}
 }
@@ -58,7 +58,7 @@ Last Updated on
 
 % Headings command
 \titleformat{\section}{\color{headings}
-\scshape\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{14pt}{22pt}\selectfont \raggedright\uppercase}{} {0em}{}
+\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{14pt}{22pt}\selectfont \raggedright\uppercase}{} {0em}{}
 
 % Subeadings command
 \titleformat{\subsection}{\color{subheadings}
