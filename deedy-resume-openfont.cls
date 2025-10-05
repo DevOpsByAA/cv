@@ -57,7 +57,7 @@ Last Updated on
             \color{headings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont #3
         \end{minipage}
     \end{tabular*}
-    \vspace{8pt}
+    \vspace{4pt}
 }
 \titlespacing{\section}{0pt}{0pt}{0pt}
 
