@@ -43,16 +43,16 @@ Last Updated on
 
 % Name command
 \newcommand{\namesection}[3]{
-	\centering{
-		\sffamily
-		\fontspec[Path = fonts/raleway/]{Raleway-Regular}\fontsize{26pt}{8cm}\selectfont #1
-		\vspace{12pt}
-	} \\
-	\centering{\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{18pt}{4cm}\selectfont #2} \\
-	\vspace{10pt}
-	\centering{ \color{headings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont #3}
-	% \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.10pt}}
-	\vspace{-15pt}
+    \noindent\begin{minipage}[t]{\textwidth}
+        \sffamily
+        \raggedright
+        \fontspec[Path = fonts/raleway/]{Raleway-Regular}\fontsize{26pt}{8cm}\selectfont #1 \\
+        \vspace{6pt}
+        \fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{18pt}{4cm}\selectfont #2 \\
+        \vspace{6pt}
+        \hfill\color{headings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont #3
+    \end{minipage}
+    \vspace{8pt}
 }
 \titlespacing{\section}{0pt}{0pt}{0pt}
 
