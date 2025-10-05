@@ -45,7 +45,7 @@ Last Updated on
 \newcommand{\namesection}[3]{
 	\centering{
 		\sffamily
-		\fontspec[Path = fonts/raleway/]{Raleway-Regular}\fontsize{28pt}{8cm}\selectfont #1
+		\fontspec[Path = fonts/raleway/]{Raleway-Regular}\fontsize{26pt}{8cm}\selectfont #1
 		\vspace{12pt}
 	} \\
 	\centering{\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{18pt}{4cm}\selectfont #2} \\
@@ -58,7 +58,7 @@ Last Updated on
 
 % Headings command
 \titleformat{\section}{\color{headings}
-\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{14pt}{22pt}\selectfont \raggedright\uppercase}{} {0em}{}
+\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{14pt}{20pt}\selectfont \raggedright\uppercase}{} {0em}{}
 
 % Subeadings command
 \titleformat{\subsection}{\color{subheadings}
