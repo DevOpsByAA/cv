@@ -43,15 +43,20 @@ Last Updated on
 
 % Name command
 \newcommand{\namesection}[3]{
-    \noindent\begin{minipage}[t]{\textwidth}
-        \sffamily
-        \raggedright
-        \fontspec[Path = fonts/raleway/]{Raleway-Regular}\fontsize{26pt}{8cm}\selectfont #1 \\
-        \vspace{6pt}
-        \fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{18pt}{4cm}\selectfont #2 \\
-        \vspace{6pt}
-        \hfill\color{headings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont #3
-    \end{minipage}
+    \noindent\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+        \begin{minipage}[t]{0.6\textwidth}
+            \sffamily
+            \raggedright
+            \fontspec[Path = fonts/raleway/]{Raleway-Regular}\fontsize{26pt}{8cm}\selectfont #1 \\
+            \vspace{6pt}
+            \fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{18pt}{4cm}\selectfont #2
+        \end{minipage}
+        &
+        \begin{minipage}[t]{0.35\textwidth}
+            \raggedleft
+            \color{headings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont #3
+        \end{minipage}
+    \end{tabular*}
     \vspace{8pt}
 }
 \titlespacing{\section}{0pt}{0pt}{0pt}
