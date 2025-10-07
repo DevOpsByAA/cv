@@ -73,6 +73,10 @@ Last Updated on
 \newcommand{\runsubsection}[1]{\color{subheadings}
 \fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
 
+% Runsubsection lowercase variant
+\newcommand{\runsubsectionlower}[1]{\color{subheadings}
+\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{12pt}{12pt}\selectfont\bfseries {#1} \normalfont}
+
 % Descriptors command
 \newcommand{\descript}[1]{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
 
