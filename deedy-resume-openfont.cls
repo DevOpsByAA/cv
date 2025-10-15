@@ -90,7 +90,7 @@ Last Updated on
 \newcommand{\skillslist}[1]{\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
 
 % Section seperators command
-\newcommand{\sectionsep}[0]{\vspace{12pt}}
+\newcommand{\sectionsep}[0]{\vspace{16pt}}
 
 % Section small seperators command
 \newcommand{\sectionsepsmall}[0]{\vspace{6pt}}
