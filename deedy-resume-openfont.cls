@@ -100,10 +100,10 @@ Last Updated on
 
 \newcommand\projets[2]{
 	\vspace{2pt}
-	\hspace{1.5em} 
+	\noindent\hspace{1.5em} 
 	\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{11pt}\selectfont #1
 	\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{11pt}{11pt}\selectfont #2
-	\par\vspace{10pt}
+	\par\vspace{10pt}\noindent
 }
 
 \newcommand\skillitem[2]{
