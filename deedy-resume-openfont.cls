@@ -47,7 +47,7 @@ Last Updated on
         \begin{minipage}[t]{0.6\textwidth}
             \sffamily
             \raggedright
-            \fontspec[Path = fonts/raleway/]{Raleway-Regular}\fontsize{26pt}{32pt}\selectfont #1 \\
+            \fontspec[Path = fonts/raleway/]{Raleway-Regular}\fontsize{30pt}{34pt}\selectfont #1 \\
             \vspace{2pt}
             \fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{18pt}{18pt}\selectfont #2
         \end{minipage}
