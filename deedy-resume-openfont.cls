@@ -80,6 +80,9 @@ Last Updated on
 % Descriptors command
 \newcommand{\descript}[1]{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
 
+% Descriptors command - Education
+\newcommand{\descripteducation}[1]{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
+
 % Descriptors skills command
 \newcommand{\skillsdescript}[1]{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{11pt}{13pt}\selectfont {$\textbullet$ #1} \normalfont}
 
