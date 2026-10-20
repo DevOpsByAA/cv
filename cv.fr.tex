@@ -1,0 +1,98 @@
+% French (Quebec) version. Compile with XeLaTeX.
+% Based on the Deedy resume template by Debarghya Das.
+\PassOptionsToPackage{french}{babel}
+\documentclass[11pt]{deedy-resume-openfont}
+\begin{document}
+\selectlanguage{french}
+\namesection{Alexander Acevedo}{Spécialiste DevOps}{Montréal, QC | (438) 993-6121  alex.devops.email@gmail.com  \href{https://www.linkedin.com/in/aa-devops}{linkedin.com/in/aa-devops}}
+
+\vspace{0.5cm}
+\section{Profil professionnel}
+\vspace{0.2cm}
+\begin{tightemize}
+\item Plus de 8 ans en développement logiciel, dont les 6 dernières années axées sur les pratiques DevOps et SRE.
+\item Expérience confirmée en conception et en mise en œuvre de solutions CI/CD avec Azure DevOps et GitHub Actions.
+\item Expérience pratique en infrastructure en tant que code (IaC) avec Terraform et HashiCorp Cloud Platform pour orchestrer le déploiement d'environnements infonuagiques complexes.
+\item Solide maîtrise des principes de conception des zones d'atterrissage : architecture, hiérarchie des groupes de gestion, réseautique, contrôle des accès, sécurité et surveillance.
+\item Expertise en stratégies de branches, en gestion sémantique des versions et en gestion des artefacts pour assurer des livraisons logicielles cohérentes, fiables et traçables.
+\end{tightemize}
+
+\vspace{0.5cm}
+\section{Expérience professionnelle}
+\sectionsepsmall
+\runsubsection{Intact/PSI}\descript{| Spécialiste DevOps principal, plateforme infonuagique}\hfill \location{Montréal, QC | 2026 - présent}
+\begin{tightemize}
+\item Piloter la migration de plus de 100 projets d'infrastructure Terraform de GitLab vers GitHub, en uniformisant la structure des dépôts et les pratiques de livraison des infrastructures infonuagiques.
+\item Concevoir et mettre en œuvre une stratégie de déploiement Terraform avec GitHub Actions pour assurer une livraison uniforme, automatisée et facile à maintenir dans les dépôts migrés.
+\item Définir des composants réutilisables d'infrastructure et de déploiement, en appliquant la gestion sémantique des versions et des normes communes pour améliorer la maintenabilité et l'évolutivité du cadre de livraison Terraform.
+\item Livrer des zones d'atterrissage Azure normalisées aux équipes de produits internes, en fournissant une base infonuagique encadrée par des règles de gouvernance pour leurs applications.
+\end{tightemize}
+\sectionsep
+\projets{Projets :}{Migration GitLab vers GitHub, zone d'atterrissage de ligne d'affaires (LOB) (plateforme / charges de travail)}
+\sectionsep
+\runsubsection{Desjardins}\descript{| Spécialiste DevOps, plateforme infonuagique}\hfill \location{Montréal, QC | 2022 - 2026}
+\begin{tightemize}
+\item Développer l'infrastructure Azure en tant que code à l'échelle de l'entreprise : 3 concentrateurs de connectivité, plus de 20 zones d'atterrissage d'affaires et plus de 50 zones applicatives, dans plusieurs locataires, régions et environnements.
+\item Uniformiser la livraison d'infrastructure grâce à un écosystème Terraform modulaire comprenant plus de 20 modules de base réutilisables et 3 métamodules, pour assurer des configurations cohérentes et conformes.
+\item Accélérer les cycles de livraison par la conception, le développement et la maintenance de flux de travail GitHub pour les déploiements infonuagiques.
+\item Réduire les demandes de changement internes dans Jira Service Desk en revoyant la stratégie de livraison des ressources infonuagiques fréquemment modifiées.
+\item Accompagner 10 membres de l'équipe dans l'adoption d'un nouveau cadre de déploiement Terraform/GitHub pour favoriser une gestion autonome de la plateforme infonuagique.
+\end{tightemize}
+\sectionsep
+\projets{Projets :}{Programme de transformation infonuagique, zones d'atterrissage de connectivité et d'affaires}
+
+% Keep earlier experience together on page 2.
+\newpage
+\section{Expérience professionnelle (suite)}
+\sectionsepsmall
+\runsubsection{LGI Healthcare Solutions}\descript{| Intégrateur DevOps}\hfill \location{Montréal, QC | 2021 - 2022}
+\begin{tightemize}
+\item Accélérer les cycles de déploiement de 3 produits SaaS grâce à une approche de livraison en tant que code dans Azure DevOps, en automatisant les pipelines de compilation, de promotion et de mise en production.
+\item Définir et mettre en œuvre des stratégies normalisées de gestion des versions et des branches pour améliorer la traçabilité des livraisons et répondre aux exigences des projets.
+\end{tightemize}
+\sectionsep
+\projets{Projets :}{Intellium, Strom, EspressoGo}
+\sectionsep
+\runsubsection{LGI Healthcare Solutions}\descript{| Développeur full stack}\hfill \location{Montréal, QC | 2018 - 2021}
+\begin{tightemize}
+\item Concevoir et mettre en œuvre des pipelines Azure DevOps pour la solution d'authentification unique (SSO) basée sur Keycloak, en orchestrant la compilation, la promotion et le déploiement dans les environnements AKS.
+\item Uniformiser les configurations au moyen de rôles et de playbooks Ansible, en automatisant le provisionnement des domaines (realms), des clients et des paramètres Keycloak selon une approche de livraison en tant que code.
+\item Étendre les capacités d'authentification de la solution SSO interne par le développement de 2 extensions Keycloak permettant à plus de 30 entreprises clientes d'intégrer leurs annuaires existants sur site.
+\item Harmoniser l'identité visuelle et l'expérience utilisateur de la gamme de produits en personnalisant le thème Keycloak et les pages d'authentification à l'aide de gabarits FreeMarker.
+\end{tightemize}
+\sectionsep
+\projets{Projet :}{Solution interne d'authentification unique basée sur Keycloak}
+% Earlier role remains omitted, as in the source supplied for translation.
+
+\vspace{0.5cm}
+\section{Formation et certifications}
+\vspace{0.2cm}
+\raggedright
+\runsubsectionlower{HashiCorp Certified |}\descripteducation{ HCTAO-004 Terraform Associate 004}\hfill \location{Depuis 2026}\\
+\sectionsep
+\runsubsectionlower{Microsoft Certified |}\descripteducation{ GH-200 - GitHub Actions}\hfill \location{Depuis 2025}\\
+\sectionsep
+\runsubsectionlower{Microsoft Certified |}\descripteducation{ GH-900 - GitHub Fundamentals}\hfill \location{Depuis 2025}\\
+\sectionsep
+\runsubsectionlower{Microsoft Certified |}\descripteducation{ AZ-400 - Azure DevOps Engineer Expert}\hfill \location{Depuis 2023}\\
+\sectionsep
+\runsubsectionlower{Microsoft Certified |}\descripteducation{ AZ-104 - Azure Administrator Associate}\hfill \location{Depuis 2023}\\
+\sectionsep
+\runsubsectionlower{UQAM |}\descripteducation{ Certificat en informatique et en développement de logiciels}\hfill \location{Montréal, QC | 2015 - 2017}\\
+\sectionsep
+\runsubsectionlower{Université de La Havane |}\descripteducation{ Baccalauréat en comptabilité et en finance}\hfill \location{La Havane, Cuba | 2002 - 2007}\\
+\sectionsep
+
+\vspace{0.5cm}
+\section{Compétences techniques}
+\raggedright
+\begin{tabular}[t]{@{}p{0.48\textwidth}@{\hspace{0.02\textwidth}}p{0.48\textwidth}@{}}
+{\runsubsectionlower{Infonuagique |}\skilldescript{Microsoft Azure}} & {\runsubsectionlower{Programmation |}\skilldescript{PHP $\cdot$ C\# $\cdot$ Java}} \\[0pt]
+{\runsubsectionlower{IaC |}\skilldescript{Terraform $\cdot$ HashiCorp Cloud Platform}} & {\runsubsectionlower{Interfaces |}\skilldescript{Joomla $\cdot$ WordPress $\cdot$ Angular $\cdot$ React}} \\[0pt]
+{\runsubsectionlower{CI/CD |}\skilldescript{Azure DevOps $\cdot$ GitHub Actions}} & {\runsubsectionlower{Conteneurs |}\skilldescript{Docker $\cdot$ K8S (AKS)}} \\[0pt]
+{\runsubsectionlower{Versions |}\skilldescript{GitHub $\cdot$ Azure Repos $\cdot$ Bitbucket}} & {\runsubsectionlower{Gabarits |}\skilldescript{Jinja2 $\cdot$ Nunjucks $\cdot$ FreeMarker}} \\[0pt]
+{\runsubsectionlower{Scripts |}\skilldescript{Bash $\cdot$ PowerShell $\cdot$ Python}} & {\runsubsectionlower{CSS |}\skilldescript{sass $\cdot$ scss $\cdot$ less}} \\[0pt]
+{\runsubsectionlower{CaC |}\skilldescript{Ansible (rôles et playbooks)}} & {\runsubsectionlower{Agilité |}\skilldescript{SAFe $\cdot$ Scrum $\cdot$ Kanban}} \\[0pt]
+{\runsubsectionlower{Artefacts |}\skilldescript{Artifactory $\cdot$ ACR $\cdot$ Azure Artifacts}} & {\runsubsectionlower{Collaboration |}\skilldescript{Jira $\cdot$ Confluence $\cdot$ Teams $\cdot$ Slack}}
+\end{tabular}
+\end{document}
