@@ -4,7 +4,11 @@
 ## Usage
 To generate a PDF from this LaTeX code, navigate to this folder in a terminal and run:
 
-    xelatex resume.tex
+    xelatex cv.tex
+
+The CV is arranged across two pages: the profile and recent platform roles on
+the first page; earlier experience, education, certifications, and skills on the
+second. The page break before LGI Healthcare Solutions is intentional.
 
 ## Requirements
 You will need to have `xelatex` installed on your machine.

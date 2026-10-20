@@ -96,7 +96,7 @@ Last Updated on
 \newcommand{\skillslist}[1]{\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{11pt}{13pt}\selectfont {#1} \normalfont}
 
 % Section seperators command
-\newcommand{\sectionsep}[0]{\vspace{10pt}}
+\newcommand{\sectionsep}[0]{\vspace{5pt}}
 
 % Section small seperators command
 \newcommand{\sectionsepsmall}[0]{\vspace{6pt}}
@@ -109,7 +109,7 @@ Last Updated on
 	\noindent\hspace{1.5em} 
 	\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{11pt}\selectfont #1
 	\color{subheadings}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{11pt}{11pt}\selectfont #2
-	\par\vspace{10pt}
+	\par\vspace{5pt}
 }
 
 \newcommand\skillitem[2]{
