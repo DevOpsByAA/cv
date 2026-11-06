@@ -1,0 +1,97 @@
+% Spanish (Spain) version. Compile with XeLaTeX.
+% Based on the Deedy resume template by Debarghya Das.
+\PassOptionsToPackage{spanish,es-nodecimaldot,es-noquoting}{babel}
+\documentclass[11pt]{deedy-resume-openfont}
+\geometry{a4paper}
+\begin{document}
+\selectlanguage{spanish}
+\namesection{Alexander Acevedo}{DevOps Engineer}{Montreal, Canadá | +1 438 993 6121  alex.devops.email@gmail.com  \href{https://www.linkedin.com/in/aa-devops}{linkedin.com/in/aa-devops}}
+
+\vspace{0.5cm}
+\section{Perfil profesional}
+\vspace{0.2cm}
+\begin{tightemize}
+\item Más de 8 años de experiencia en desarrollo de software, con especialización en DevOps y SRE durante los últimos 6 años.
+\item Experiencia contrastada en el diseño e implantación de soluciones de integración y entrega continuas (CI/CD) con Azure DevOps y GitHub Actions.
+\item Experiencia práctica en infraestructura como código (IaC) con Terraform y HashiCorp Cloud Platform para orquestar despliegues en entornos cloud complejos.
+\item Sólidos conocimientos de diseño de landing zones: arquitectura, jerarquía de grupos de administración, redes, control de acceso, seguridad y monitorización.
+\item Dominio de estrategias de ramificación, versionado semántico y gestión de artefactos para garantizar entregas de software coherentes, fiables y trazables.
+\end{tightemize}
+
+\vspace{0.5cm}
+\section{Experiencia profesional}
+\sectionsepsmall
+\runsubsection{Intact/PSI}\descript{| Principal DevOps / Plataforma cloud}\hfill \location{Montreal, Canadá | 2026 - actualidad}
+\begin{tightemize}
+\item Lidero la migración de más de 100 proyectos de infraestructura Terraform de GitLab a GitHub, estandarizando la estructura de los repositorios y las prácticas de entrega de infraestructura cloud.
+\item Diseño e implanto una estrategia de despliegue de Terraform con GitHub Actions para garantizar entregas uniformes, automatizadas y fáciles de mantener en los repositorios migrados.
+\item Defino componentes reutilizables de infraestructura y despliegue, aplicando versionado semántico y criterios comunes para mejorar la mantenibilidad y escalabilidad del marco de entrega de Terraform.
+\item Proporciono landing zones de Azure estandarizadas a los equipos internos de producto, con una base cloud sujeta a políticas de gobierno para desarrollar y desplegar sus aplicaciones.
+\end{tightemize}
+\sectionsep
+\projets{Proyectos:}{Migración de GitLab a GitHub, LOB Landing Zone (plataforma / cargas de trabajo)}
+\sectionsep
+\runsubsection{Desjardins}\descript{| DevOps Engineer / Plataforma cloud}\hfill \location{Montreal, Canadá | 2022 - 2026}
+\begin{tightemize}
+\item Desarrollé infraestructura Azure como código a escala empresarial: 3 hubs de conectividad, más de 20 landing zones de negocio y más de 50 de aplicaciones, en múltiples tenants, regiones y entornos.
+\item Estandaricé la entrega de infraestructura mediante un ecosistema Terraform modular con más de 20 módulos base reutilizables y 3 metamódulos, asegurando configuraciones coherentes y conformes con los requisitos.
+\item Agilicé los ciclos de entrega mediante el diseño, desarrollo y mantenimiento de workflows de GitHub para los procesos de despliegue cloud.
+\item Reduje las solicitudes internas de cambio en Jira Service Desk al rediseñar la estrategia de entrega de los recursos cloud sujetos a modificaciones frecuentes.
+\item Formé y acompañé a 10 miembros del equipo en la adopción de un nuevo marco de despliegue Terraform/GitHub, facilitando la gestión autónoma de la plataforma cloud.
+\end{tightemize}
+\sectionsep
+\projets{Proyectos:}{Programa de transformación cloud, landing zones de conectividad y de negocio}
+
+\newpage
+\section{Experiencia profesional (continuación)}
+\sectionsepsmall
+\runsubsection{LGI Healthcare Solutions}\descript{| Integrador DevOps}\hfill \location{Montreal, Canadá | 2021 - 2022}
+\begin{tightemize}
+\item Agilicé los despliegues de 3 productos SaaS mediante un enfoque de entrega como código en Azure DevOps, automatizando los pipelines de compilación, promoción y puesta en producción.
+\item Definí e implanté estrategias estandarizadas de versionado y ramificación, mejorando la trazabilidad de las entregas y su adecuación a los requisitos de los proyectos.
+\end{tightemize}
+\sectionsep
+\projets{Proyectos:}{Intellium, Strom, EspressoGo}
+\sectionsep
+\runsubsection{LGI Healthcare Solutions}\descript{| Desarrollador full stack}\hfill \location{Montreal, Canadá | 2018 - 2021}
+\begin{tightemize}
+\item Diseñé e implanté pipelines de Azure DevOps para la solución de inicio de sesión único (SSO) basada en Keycloak, orquestando la compilación, promoción y despliegue en entornos AKS.
+\item Mejoré la coherencia de las configuraciones mediante roles y playbooks de Ansible, automatizando el aprovisionamiento de realms, clientes y parámetros de Keycloak con un enfoque de entrega como código.
+\item Amplié las capacidades de autenticación de la solución SSO interna con 2 extensiones de Keycloak que permitieron a más de 30 clientes empresariales integrar sus directorios locales existentes.
+\item Unifiqué la identidad visual y la experiencia de usuario de la gama de productos mediante la personalización del tema de Keycloak y de las páginas de autenticación con plantillas FreeMarker.
+\end{tightemize}
+\sectionsep
+\projets{Proyecto:}{Solución interna de inicio de sesión único basada en Keycloak}
+
+\vspace{0.5cm}
+\section{Formación y certificaciones}
+\vspace{0.2cm}
+\raggedright
+\runsubsectionlower{HashiCorp Certified |}\descripteducation{ HCTAO-004 Terraform Associate 004}\hfill \location{Desde 2026}\\
+\sectionsep
+\runsubsectionlower{Microsoft Certified |}\descripteducation{ GH-200 - GitHub Actions}\hfill \location{Desde 2025}\\
+\sectionsep
+\runsubsectionlower{Microsoft Certified |}\descripteducation{ GH-900 - GitHub Fundamentals}\hfill \location{Desde 2025}\\
+\sectionsep
+\runsubsectionlower{Microsoft Certified |}\descripteducation{ AZ-400 - Azure DevOps Engineer Expert}\hfill \location{Desde 2023}\\
+\sectionsep
+\runsubsectionlower{Microsoft Certified |}\descripteducation{ AZ-104 - Azure Administrator Associate}\hfill \location{Desde 2023}\\
+\sectionsep
+\runsubsectionlower{UQAM |}\descripteducation{ Certificado en Informática y Desarrollo de Software}\hfill \location{Montreal, Canadá | 2015 - 2017}\\
+\sectionsep
+\runsubsectionlower{Universidad de La Habana |}\descripteducation{ Licenciatura en Contabilidad y Finanzas}\hfill \location{La Habana, Cuba | 2002 - 2007}\\
+\sectionsep
+
+\vspace{0.5cm}
+\section{Competencias técnicas}
+\raggedright
+\begin{tabular}[t]{@{}p{0.48\textwidth}@{\hspace{0.02\textwidth}}p{0.48\textwidth}@{}}
+{\runsubsectionlower{Cloud |}\skilldescript{Microsoft Azure}} & {\runsubsectionlower{Programación |}\skilldescript{PHP $\cdot$ C\# $\cdot$ Java}} \\[0pt]
+{\runsubsectionlower{IaC |}\skilldescript{Terraform $\cdot$ HashiCorp Cloud Platform}} & {\runsubsectionlower{Interfaces |}\skilldescript{Joomla $\cdot$ WordPress $\cdot$ Angular $\cdot$ React}} \\[0pt]
+{\runsubsectionlower{CI/CD |}\skilldescript{Azure DevOps $\cdot$ GitHub Actions}} & {\runsubsectionlower{Contenedores |}\skilldescript{Docker $\cdot$ K8S (AKS)}} \\[0pt]
+{\runsubsectionlower{VCS |}\skilldescript{GitHub $\cdot$ Azure Repos $\cdot$ Bitbucket}} & {\runsubsectionlower{Plantillas |}\skilldescript{Jinja2 $\cdot$ Nunjucks $\cdot$ FreeMarker}} \\[0pt]
+{\runsubsectionlower{Scripting |}\skilldescript{Bash $\cdot$ PowerShell $\cdot$ Python}} & {\runsubsectionlower{CSS |}\skilldescript{sass $\cdot$ scss $\cdot$ less}} \\[0pt]
+{\runsubsectionlower{CaC |}\skilldescript{Ansible (roles y playbooks)}} & {\runsubsectionlower{Agilidad |}\skilldescript{SAFe $\cdot$ Scrum $\cdot$ Kanban}} \\[0pt]
+{\runsubsectionlower{Artefactos |}\skilldescript{Artifactory $\cdot$ ACR $\cdot$ Azure Artifacts}} & {\runsubsectionlower{Colaboración |}\skilldescript{Jira $\cdot$ Confluence $\cdot$ Teams $\cdot$ Slack}}
+\end{tabular}
+\end{document}
